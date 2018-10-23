@@ -43,8 +43,8 @@ function draw() {
    var volmap = map(vol,-1,1,0,255)
 
 
-           image(img,0-map(vol,0,1,0,2000),0-map(vol,0,1,0,2000),width+1000,height+1000);
-
+           image(img,0,0,width,height);
+           tint(spectrum[16],spectrum[10],150)
 var test=300
 
 
@@ -63,7 +63,7 @@ strokeWeight(0)
     }
        ;}}
 
-// 
+//
 //     console.log()
 //
 // text(mouseX*20,600,100)
