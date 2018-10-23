@@ -15,7 +15,7 @@ function setup() {
 
 frameRate(10)
 
-   fft = new p5.FFT(0,128);
+   fft = new p5.FFT(0.9,128);
    vl= new p5.Amplitude();
    newmsc.play()
    fft.setInput(newmsc);
